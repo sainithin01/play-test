@@ -1,0 +1,2 @@
+print("Hello, this is a plagiarism checker. It can check for plagiarism in images, text, and text files. Please use the plag_check.py script to run the plagiarism check.")
+#         print("Invalid choice. Please enter 1, 2, or 3.")
