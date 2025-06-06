@@ -10,10 +10,11 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from urllib.parse import unquote, urlparse
+from urllib.parse import unquote, urlparse
+
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-
-
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 class PlagiarismChecker:
     def __init__(self, threshold=0.5):
         nltk.download('punkt', quiet=True)
