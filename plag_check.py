@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 import pytesseract
 import requests
-# from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 import pandas
 from difflib import SequenceMatcher
 import nltk
